@@ -70,9 +70,17 @@ void read(vec<T>& a) {
 }
 
 template<class T>
+void print_el(const vec<T>& a) {
+  for(auto &x : a) cout << x << "\n";
+}
+
+template<class T>
 void print(const vec<T>& a) {
-  for(auto &x : a) cout << x << " ";
-  cout << "\n";
+  rep(i, 0, (int)a.size()) {
+    if (i) cout << " ";
+    cout << a[i];
+  }
+  cout << el;
 }
 
 // ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); 
