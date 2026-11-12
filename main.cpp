@@ -974,22 +974,27 @@ vec<ll> prime(ll n) {
 // };
 
 // S op(S l, S r) {
+// 	return {l.sum + r.sum, l.len + r.len};
 // }
 
 // S e() {
+// 	return {0, 0};
 // }
 
 // S mapping(F f, S x) {
+// 	return {x.sum + f * x.len, x.len};
 // }
 
 // F comp(F f, F g) {
+// 	return f + g;
 // }
 
 // F id() {
+// 	return 0;
 // }
 
 void solve() {
-
+	
 }
 
 int main() {
@@ -1003,3 +1008,11 @@ int main() {
 	while(T--) solve();
 	return 0;
 }
+
+/*
+
+ライブラリURL
+
+https://github.com/KWEKE633/My_atcoder
+
+*/
