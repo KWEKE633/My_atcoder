@@ -1,1 +1,19 @@
-atcoder/
+# ===== macOS =====
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# ===== AtCoder Library (外部ライブラリ) =====
+/atcoder/
+
+# ===== Build artifacts =====
+*.o
+a.out
+*.out
+*.dSYM/
+
+# ===== Claude Code (個人用・一時ファイル) =====
+.claude/settings.local.json
+.claude/worktrees/
+CLAUDE.local.md
